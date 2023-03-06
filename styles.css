@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  gap: 15px;
+  color: #c5c3c6;
+  font-size: 13pt;
+}
+
+.header__left i {
+  cursor: pointer;
+}
+
+.header__left,
+.header__center,
+.header__right {
+  flex: 1;
+}
+
+.header__center {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+  align-items: center;
+}
+
+.music-box {
+  background-color: red;
+  padding: 12px;
+}
